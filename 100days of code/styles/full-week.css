@@ -1,0 +1,59 @@
+header {
+  margin-bottom: 64px;
+}
+h1 {
+  color: rgb(71, 62, 62);
+  font-size: 48px;
+  margin: 0;
+}
+
+#description {
+  margin: 12px;
+}
+
+a {
+  padding: 12px 48px;
+  background-color: rgb(167, 1, 78);
+  color: white;
+  border: 1px solid rgb(167, 1, 78);
+  border-radius: 4px;
+  font-size: 24px;
+  /* margin: 30px 12px; */
+  /* a와 같은 inline tag에서는 상하 margin은 추가해도 의미없고 좌우만 의미있다. */
+  /* inline 은 위아래 여백이나 패딩에 제한이 있다 그럴때 inline-block으로 해결 가능 */
+  display: inline-block;
+  margin: 0;
+}
+
+a:hover {
+  background-color: rgb(180, 12, 90);
+  text-decoration: none;
+}
+
+ol {
+  list-style: none;
+  width: 500px;
+  margin: 36px auto 0 auto;
+  padding: 0;
+}
+
+li {
+  padding: 16px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  margin: 32px;
+  background-color: rgb(223, 136, 124);
+  border-radius: 6px;
+}
+
+h2 {
+  color: rgb(78, 13, 5);
+}
+
+main p {
+  margin: 12px;
+  color: rgb(71, 29, 22);
+}
+
+.highlight-goal {
+  background-color: rgb(194, 90, 76);
+}
